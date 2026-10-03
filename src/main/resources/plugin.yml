@@ -1,0 +1,10 @@
+name: TeamsPlus
+version: '${project.version}'
+main: me.teamsplus.TeamsPlus
+api-version: '1.21'
+description: Teams with owner crown, team chat, glow, pvp toggle and team home
+commands:
+  team:
+    description: Team commands
+    usage: /team <create|disband|invite|accept|leave|kick|pvp|chat|color|home|info>
+    aliases: [t, teams]
